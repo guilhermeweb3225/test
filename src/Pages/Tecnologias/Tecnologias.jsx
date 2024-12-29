@@ -1,6 +1,7 @@
 import './Tecnologias.css'
 import Header from '../../componetes/header/Header'
 import Footer from '../../componetes/footer/Footer'
+import Livro from '../../assets/livro.png'
 
 function Tecnologias(){
     return(
@@ -10,7 +11,7 @@ function Tecnologias(){
         <h1>Tecnologias</h1>
         <section>
             <div className="dv-imgs">
-                <img src="../../assets/icon-html.png" />
+                <img src={Livro}/>
                 <div className="texto">
                     <p>Criação de estrutura e conteúdo das páginas web, garantindo acessibilidade e organização.</p>
                 </div>
@@ -40,7 +41,7 @@ function Tecnologias(){
                 </div>
             </div>
             <div className="dv-imgs">
-                <img src='../../../public/avatar.png'/>
+                <img src='../../assets/icon-git.png'/>
                 <div className="texto">
                     <p>Controle de versão, facilitando o gerenciamento de projetos e colaborações.</p>
                 </div>
