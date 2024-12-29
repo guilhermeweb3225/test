@@ -7,9 +7,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/'element={<Projetos/>}></Route>
-        <Route path='/Tecnologias'element={<Tecnologias/>}></Route>
-        <Route path='/Sobre'element={<SobreMim/>}></Route>
+        <Route path='test/'element={<Projetos/>}></Route>
+        <Route path='test/Tecnologias'element={<Tecnologias/>}></Route>
+        <Route path='test/Sobre'element={<SobreMim/>}></Route>
       </Routes>
     </Router>
   )
