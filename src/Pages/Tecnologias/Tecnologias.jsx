@@ -1,14 +1,14 @@
 import './Tecnologias.css'
 import Header from '../../componetes/header/Header'
 import Footer from '../../componetes/footer/Footer'
-import Estru from '../../assets/icon.html.png'
-import Style from '../../assets/icon.css.png'
-import Jsc from '/assets/icon-Jsc.png';
-import ReactImg from '/assets/icon-react.png';
-import Ts from '/assets/icon-ts.png';
-import Git from '/assets/icon-git.png';
-import GitIcon from '/assets/git-icon.svg';
-import Figma from '/assets/icon-figma.png';
+import HtmlImg from '../../assets/icon-html.png'
+import Style from '../../assets/icon-css.png'
+import Jsc from '../../assets/icon-Jsc.png';
+import ReactImg from '../../assets/icon-react.png';
+import Ts from '../../assets/icon-ts.png';
+import Git from '../../assets/icon-git.png';
+import GitIcon from '../../assets/git-icon.svg';
+import Figma from '../../assets/icon-figma.png';
 
 function Tecnologias(){
     return(
@@ -18,7 +18,7 @@ function Tecnologias(){
         <h1>Tecnologias</h1>
         <section>
             <div className="dv-imgs">
-                <img src={Estru}/>
+                <img src={HtmlImg}/>
                 <div className="texto">
                     <p>Criação de estrutura e conteúdo das páginas web, garantindo acessibilidade e organização.</p>
                 </div>
