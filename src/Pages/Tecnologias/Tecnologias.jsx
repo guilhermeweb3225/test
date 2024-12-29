@@ -40,7 +40,7 @@ function Tecnologias(){
                 </div>
             </div>
             <div className="dv-imgs">
-                <img src='../../assets/icon-git.png'/>
+                <img src='../../../public/avatar.png'/>
                 <div className="texto">
                     <p>Controle de versão, facilitando o gerenciamento de projetos e colaborações.</p>
                 </div>
