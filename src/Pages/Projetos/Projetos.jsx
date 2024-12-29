@@ -34,7 +34,7 @@ function Projetos(){
                     </div>
                     <h2>projeto</h2>
                     <p className="decricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsa quas eveniet molestiae architecto temporibus natus. Ratione eum debitis possimus quidem quod natus dignissimos nisi sunt fugiat consequatur, quia rem?</p>
-                    <button className="BT-Primario">clique aqui</button>
+                    <a href="#"><button className="BT-Primario">clique aqui</button></a>
                 </div>
                 <div className="dv-primaria">
                     <div className="img">
@@ -50,7 +50,7 @@ function Projetos(){
                     </div>
                     <h2>projeto</h2>
                     <p className="decricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsa quas eveniet molestiae architecto temporibus natus. Ratione eum debitis possimus quidem quod natus dignissimos nisi sunt fugiat consequatur, quia rem?</p>
-                    <button className="BT-Primario">clique aqui</button>
+                    <a href="#"><button className="BT-Primario">clique aqui</button></a>
                 </div>
                 <div className="dv-primaria">
                     <div className="img">
