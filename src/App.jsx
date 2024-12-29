@@ -8,8 +8,8 @@ function App() {
     <Router>
       <Routes>
         <Route path='/'element={<Projetos/>}></Route>
-        <Route path='https://guilhermeweb3225.github.io/Tecnologias'element={<Tecnologias/>}></Route>
-        <Route path='https://guilhermeweb3225.github.io/test/Sobre'element={<SobreMim/>}></Route>
+        <Route path='/Tecnologias'element={<Tecnologias/>}></Route>
+        <Route path='/Sobre'element={<SobreMim/>}></Route>
       </Routes>
     </Router>
   )
