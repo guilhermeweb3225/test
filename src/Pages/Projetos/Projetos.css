@@ -56,8 +56,10 @@ main{
         }
         a > button.BT-Primario{
             border: none;
+            color: white;
             width: 180px;
             height: 53px;
+            background:linear-gradient(to right,#13ADC7,#6978D1,#945DD6);
             border-radius: 83px;
 }
 }
@@ -74,7 +76,7 @@ main{
         transition: 500ms;
         color: transparent;
     }
-    .BT-Primario:hover{
+    a > button.BT-Primario:hover{
         background: white;
         color: #45e9ff;
         box-shadow: 0 0 10px #45e9ff;
