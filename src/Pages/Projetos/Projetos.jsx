@@ -1,7 +1,7 @@
 import './Projetos.css'
 import Header from '../../componetes/header/Header'
 import Footer from '../../componetes/footer/Footer'
-import projectImg from '../../../public/projeto-img.svg'
+import projectImg from '../../assets/projeto-img.svg'
 function Projetos(){
     return (
     <>

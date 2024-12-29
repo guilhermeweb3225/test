@@ -1,8 +1,8 @@
 import {Link} from 'react-router-dom'
 import { useRef } from 'react'
 import './Header.css'
-import linkeIcon from '../../../public/link-icon.svg'
-import gitIcon from '../../../public/git-icon.svg'
+import linkeIcon from '../../assets/link-icon.svg'
+import gitIcon from '../../assets/git-icon.svg'
 function Header(){
     const Bt=useRef(null)
     const menu=useRef(null)

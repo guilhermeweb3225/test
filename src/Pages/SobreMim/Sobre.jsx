@@ -1,9 +1,9 @@
 import './Sobre.css'
 import Header from '../../componetes/header/Header'
 import Footer from '../../componetes/footer/Footer'
-import Bulssola from '../../../public/bulssola.png'
-import Avatar from '../../../public/avatar.png'
-import Livro from '../../../public/livro.png'
+import Bulssola from '../../assets/bulssola.png'
+import Avatar from '../../assets/avatar.png'
+import Livro from '../../assets/livro.png'
 function Sobre(){
     return(
         <>

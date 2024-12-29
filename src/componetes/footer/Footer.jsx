@@ -1,8 +1,8 @@
 import './Footer.css'
-import linkeIcon from '../../../public/link-icon.svg'
-import gitIcon from '../../../public/git-icon.svg'
-import whatsIcon from '../../../public/whats-icon.svg'
-import emailIcon from '../../../public/email-icon.svg'
+import linkeIcon from '../../assets/link-icon.svg'
+import gitIcon from '../../assets/git-icon.svg'
+import whatsIcon from '../../assets/whats-icon.svg'
+import emailIcon from '../../assets/email-icon.svg'
 function Footer(){
     return (
     <footer>
