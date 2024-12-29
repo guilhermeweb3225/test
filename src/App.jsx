@@ -7,9 +7,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='https://guilhermeweb3225.github.io/test/'element={<Projetos/>}></Route>
-        <Route path='https://guilhermeweb3225.github.io/Tecnologias'element={<Tecnologias/>}></Route>
-        <Route path='https://guilhermeweb3225.github.io/Sobre'element={<SobreMim/>}></Route>
+        <Route path='guilhermeweb3225.github.io/test/'element={<Projetos/>}></Route>
+        <Route path='guilhermeweb3225.github.io/Tecnologias'element={<Tecnologias/>}></Route>
+        <Route path='guilhermeweb3225.github.io/Sobre'element={<SobreMim/>}></Route>
       </Routes>
     </Router>
   )
