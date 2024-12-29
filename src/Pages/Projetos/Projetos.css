@@ -1,0 +1,108 @@
+main{
+    width: 100%;
+    background-color: #0F1624;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+        .cabeçalho{
+        width: auto;
+        height: auto;
+        text-align: center;
+        #projetos{
+            color: white;
+            font-size:55px;
+            animation: textAnima 500ms;
+            text-shadow: 0 0 15px #45e9ff;
+            transition: 500ms;
+}
+        #projetos:hover{
+            color: #45e9ff;
+            text-shadow: 0 0 30px white;
+}
+}
+
+    & > .caixa-projetos{
+        width: 74%;
+        height: auto;
+        border: none;
+        background-color: #0F1624;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        color: white;
+        &>.dv-primaria{
+            width: 400px;
+            height: 550px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            border-radius: 40px 0 ;
+            box-shadow: 0 0 10px white;
+            margin: 50px 0;
+            transition: 500ms;
+            color: transparent;
+
+
+            & > .img {
+                width: 100%;
+                padding: 10px;
+                img{
+                width: 100%;
+            }
+        }
+}
+.dv-primaria:hover{
+    box-shadow: 0 0 20px rgb(0, 255, 157);
+    color: white;
+    h2{
+        color: rgb(128, 238, 192);
+    }
+}
+    }
+    h2{
+        transition: 500ms;
+        color: transparent;
+    }
+    .BT-Primario:hover{
+        background: white;
+        color: #45e9ff;
+        box-shadow: 0 0 10px #45e9ff;
+        border-radius: 10px;
+}
+}
+@media screen and (max-width:1250px){
+    main > .caixa-projetos{
+        grid-template-columns: repeat(1,1fr) ;
+    }
+}
+@media screen and (max-width:500px){
+    main > .caixa-projetos{
+        width: 100%;
+         & > .dv-primaria{
+            width: 340px;
+         }
+    }
+}
+@media screen and (max-width:350px){
+    main > .caixa-projetos{
+         & > .dv-primaria{
+            width: 95%;
+         }
+    }
+}
+@keyframes textAnima {
+    0%{
+        font-size: 10px;
+        text-shadow: 0 0 30px #ffffff;
+    }
+    50%{
+        font-size: 65px;
+        text-shadow: 0 0 30px #ffffff;
+    }
+    100%{
+        font-size: 55px;
+    }
+}
