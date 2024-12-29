@@ -54,13 +54,13 @@ function Tecnologias(){
                 </div>
             </div>
             <div className="dv-imgs">
-                <img src='../../assets/git-icon.svg'/>
+                <img src={GitIcon}/>
                 <div className="texto">
                     <p>Hospedagem de repositórios e trabalho em equipe com versionamento de código.</p>
                 </div>
             </div>
             <div className="dv-imgs">
-                <img src='../../assets/icon-figma.png' />
+                <img src={Figma} />
                 <div className="texto">
                     <p> Criação de protótipos e design de interfaces, auxiliando na visualização de projetos.</p>
                 </div>
