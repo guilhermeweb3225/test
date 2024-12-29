@@ -5,7 +5,7 @@ import SobreMim from './Pages/SobreMim/Sobre'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/test">
       <Routes>
         <Route path='/'element={<Projetos/>}></Route>
         <Route path='/Tecnologias'element={<Tecnologias/>}></Route>
