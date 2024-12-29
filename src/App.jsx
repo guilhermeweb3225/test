@@ -7,9 +7,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='test/'element={<Projetos/>}></Route>
-        <Route path='test/Tecnologias'element={<Tecnologias/>}></Route>
-        <Route path='test/Sobre'element={<SobreMim/>}></Route>
+        <Route path='https://guilhermeweb3225.github.io/test/'element={<Projetos/>}></Route>
+        <Route path='https://guilhermeweb3225.github.io/test/Tecnologias'element={<Tecnologias/>}></Route>
+        <Route path='https://guilhermeweb3225.github.io/test/Sobre'element={<SobreMim/>}></Route>
       </Routes>
     </Router>
   )
