@@ -2,6 +2,8 @@ import './Projetos.css'
 import Header from '../../componetes/header/Header'
 import Footer from '../../componetes/footer/Footer'
 import projectImg from '../../assets/projeto-img.svg'
+import imgTC from '../../assets/img-tc.png'
+import imgBoard from '../../assets/board-img.png'
 function Projetos(){
     return (
     <>
@@ -14,19 +16,19 @@ function Projetos(){
             <div className='caixa-projetos'>
                 <div className="dv-primaria">
                     <div className="img">
-                        <img src={projectImg} />
+                        <img src={imgTC} />
                     </div>
-                    <h2>projeto</h2>
-                    <p className="decricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsa quas eveniet molestiae architecto temporibus natus. Ratione eum debitis possimus quidem quod natus dignissimos nisi sunt fugiat consequatur, quia rem?</p>
-                    <a href="#"><button className="BT-Primario">clique aqui</button></a>
+                    <h2>+TC</h2>
+                    <p className="decricao">Esta landing page apresenta uma empresa de serviços digitais focada em transformar ideias em produtos de alta qualidade. Com uma equipe experiente, oferece Gestão de Projetos, Análise de Negócios e Testes de Software para garantir eficiência, redução de erros e economia de tempo e custos.</p>
+                    <a href="https://guilhermeweb3225.github.io/TC/"><button className="BT-Primario">Abrir</button></a>
                 </div>
                 <div className="dv-primaria">
                     <div className="img">
-                        <img src={projectImg} />
+                        <img src={imgBoard} />
                     </div>
-                    <h2>projeto</h2>
-                    <p className="decricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsa quas eveniet molestiae architecto temporibus natus. Ratione eum debitis possimus quidem quod natus dignissimos nisi sunt fugiat consequatur, quia rem?</p>
-                    <a href="#"><button className="BT-Primario">clique aqui</button></a>
+                    <h2>Board de Tarefas</h2>
+                    <p className="decricao">Aplicação web simples para gerenciar usuários e suas tarefas. Permite criar,excluir e marcar tarefas como concluídas. Ideal para praticar HTML, CSS e JavaScript com foco em manipulação de dados e DOM. </p>
+                    <a href="https://guilhermeweb3225.github.io/RID-190400_Desafio3/"><button className="BT-Primario">Abrir</button></a>
                 </div>
                 <div className="dv-primaria">
                     <div className="img">
